@@ -7,7 +7,15 @@
 //
 
 #import "CTMediator+CJB.h"
+NSString * const kCTMediatorTargetB = @"B_SecionViewController";
 
+NSString * const kCTMediatorActionBSecionViewController = @"BSecionViewController";
 @implementation CTMediator (CJB)
-
+- (UIViewController *)B_SecionInfoWithRemid:(NSString *)remid resultBlock:(ResultBlock)block {
+    NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
+    [dic setValue:remid forKey:@"remid"];
+    [dic setValue:block forKey:@"myBlock"];
+    
+    return [self performTarget:kCTMediatorTargetB action:kCTMediatorActionBSecionViewController params:dic shouldCacheTarget:NO];
+}
 @end

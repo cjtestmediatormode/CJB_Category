@@ -9,9 +9,9 @@
 #import <CTMediator/CTMediator.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+typedef void(^ResultBlock)(BOOL isLike);
 @interface CTMediator (CJB)
-
+- (UIViewController *)B_SecionInfoWithRemid:(NSString *)remid resultBlock:(ResultBlock)block;
 @end
 
 NS_ASSUME_NONNULL_END
