@@ -1,0 +1,22 @@
+{
+  "name": "CJB_Category",
+  "version": "0.1.0",
+  "summary": "A short description of CJB_Category.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/496795352@qq.com/CJB_Category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "496795352@qq.com": "496795352@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/496795352@qq.com/CJB_Category.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CJB_Category/Classes/**/*"
+}

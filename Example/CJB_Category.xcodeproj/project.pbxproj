@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D65EDF5884E77F7C01BA878B /* Pods_CJB_Category_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD91416C0DCA1F7C96532A2 /* Pods_CJB_Category_Example.framework */; };
+		F0A2D0FA2224DA53001C2ACF /* CTMediator+CJB.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2D0F92224DA53001C2ACF /* CTMediator+CJB.m */; };
 		F9205273BD9D7C519F2671B1 /* Pods_CJB_Category_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AA2C663B7D37761F760EDF /* Pods_CJB_Category_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		09DB8164AC4D179034BB5C28 /* Pods-CJB_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJB_Category_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJB_Category_Example/Pods-CJB_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
-		16C1BE14EA89E5D7A9A4E727 /* CJB_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CJB_Category.podspec; path = ../CJB_Category.podspec; sourceTree = "<group>"; };
+		16C1BE14EA89E5D7A9A4E727 /* CJB_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CJB_Category.podspec; path = ../CJB_Category.podspec; sourceTree = "<group>"; };
 		20462D12C29D1F34A803A0BE /* Pods-CJB_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJB_Category_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJB_Category_Tests/Pods-CJB_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		284589C476503D901C4B2EE4 /* Pods-CJB_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJB_Category_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJB_Category_Example/Pods-CJB_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3AD91416C0DCA1F7C96532A2 /* Pods_CJB_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJB_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +65,13 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCBA57CE969AE97AF7E7DBD6 /* Pods-CJB_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJB_Category_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJB_Category_Tests/Pods-CJB_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CC6506F93E4F60AA76C7DCE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CC6506F93E4F60AA76C7DCE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D8AA2C663B7D37761F760EDF /* Pods_CJB_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJB_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E995EA45A25AB198CE36016D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E995EA45A25AB198CE36016D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F0A2D0F52224DA28001C2ACF /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F0A2D0F72224DA28001C2ACF /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F0A2D0F82224DA53001C2ACF /* CTMediator+CJB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+CJB.h"; sourceTree = "<group>"; };
+		F0A2D0F92224DA53001C2ACF /* CTMediator+CJB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+CJB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +137,7 @@
 		6003F593195388D20070C39A /* Example for CJB_Category */ = {
 			isa = PBXGroup;
 			children = (
+				F0A2D0F32224DA28001C2ACF /* CJB_Category */,
 				6003F59C195388D20070C39A /* CJAppDelegate.h */,
 				6003F59D195388D20070C39A /* CJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -183,6 +189,34 @@
 				CC6506F93E4F60AA76C7DCE5 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		F0A2D0F32224DA28001C2ACF /* CJB_Category */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D0F42224DA28001C2ACF /* Classes */,
+				F0A2D0F62224DA28001C2ACF /* Assets */,
+			);
+			name = CJB_Category;
+			path = ../../CJB_Category;
+			sourceTree = "<group>";
+		};
+		F0A2D0F42224DA28001C2ACF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D0F52224DA28001C2ACF /* .gitkeep */,
+				F0A2D0F82224DA53001C2ACF /* CTMediator+CJB.h */,
+				F0A2D0F92224DA53001C2ACF /* CTMediator+CJB.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0A2D0F62224DA28001C2ACF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D0F72224DA28001C2ACF /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		F348FB5913D9A3E8105AC1E0 /* Pods */ = {
@@ -304,12 +338,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CJB_Category_Example/Pods-CJB_Category_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CJB_Category/CJB_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CJB_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -368,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CJAppDelegate.m in Sources */,
+				F0A2D0FA2224DA53001C2ACF /* CTMediator+CJB.m in Sources */,
 				6003F5A7195388D20070C39A /* CJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
