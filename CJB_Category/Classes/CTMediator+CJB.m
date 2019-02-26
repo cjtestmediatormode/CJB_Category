@@ -15,7 +15,7 @@ NSString * const kCTMediatorActionBSecionViewController = @"BSecionViewControlle
     NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
     [dic setValue:remid forKey:@"remid"];
     [dic setValue:block forKey:@"myBlock"];
-    
+    //nw
     return [self performTarget:kCTMediatorTargetB action:kCTMediatorActionBSecionViewController params:dic shouldCacheTarget:NO];
 }
 @end

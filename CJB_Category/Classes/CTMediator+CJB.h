@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^ResultBlock)(BOOL isLike);
 @interface CTMediator (CJB)
+//跳转到B模块
 - (UIViewController *)B_SecionInfoWithRemid:(NSString *)remid resultBlock:(ResultBlock)block;
 @end
 
